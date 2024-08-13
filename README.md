@@ -1,6 +1,5 @@
 # PINNs to solve Schrödinger Equation for 1D and 2D Harmonic Oscillator
 <div style="display: flex; justify-content: space-around;">
-  <img src="Wavefunction_convergence.gif" alt="First GIF" width="400">
   <img src="Energy_convergence.gif" alt="Second GIF" width="400">
 </div>
 This repository contains Python codes implementing Physics-Informed Neural Networks (PINNs) using PyTorch to solve the Schrödinger equation for one-dimensional harmonic oscillator:
