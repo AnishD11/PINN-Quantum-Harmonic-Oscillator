@@ -1,7 +1,7 @@
 # PINNs to solve Schrödinger Equation for 1D and 2D Harmonic Oscillator
 <div style="display: flex; justify-content: space-around;">
-  <img src="Wavefunction_convergence.gif" alt="Second GIF" width="400">
-  <img src="Energy_convergence.gif" alt="Second GIF" width="400">
+  <img src="assets/\Wavefunction_convergence.gif" alt="Second GIF" width="400">
+  <img src="assets/Energy_convergence.gif" alt="Second GIF" width="400">
 </div>
 This repository contains Python codes implementing Physics-Informed Neural Networks (PINNs) using PyTorch to solve the Schrödinger equation for one-dimensional harmonic oscillator:
 
@@ -19,8 +19,8 @@ $L= \alpha L_{DE}+\beta L_{norm}+\gamma L_{ortho}$
 
 The wavefunctions discovered by the networks are presented below:
 
-![Predicted wave functions for the one-dimensional problem](https://github.com/AnishD11/PINN-for-Schrodinger-Equation-1D-2D-Harmonic-Oscillator-Solutions/blob/main/1dwf.png)
-![Predicted wave functions for the two-dimensional problem](https://github.com/AnishD11/PINN-for-Schrodinger-Equation-1D-2D-Harmonic-Oscillator-Solutions/blob/main/2dwf.png)
+![Predicted wave functions for the one-dimensional problem](https://github.com/AnishD11/PINN-for-Schrodinger-Equation-1D-2D-Harmonic-Oscillator-Solutions/blob/main/assets/1dwf.png)
+![Predicted wave functions for the two-dimensional problem](https://github.com/AnishD11/PINN-for-Schrodinger-Equation-1D-2D-Harmonic-Oscillator-Solutions/blob/main/assets/2dwf.png)
 
 While the codes are written specifically for the harmonic oscillator problem, they can be modified for any potential or any other differential equation in the form of eigenvalue problem.
 
