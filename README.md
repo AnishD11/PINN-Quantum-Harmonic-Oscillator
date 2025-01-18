@@ -13,7 +13,7 @@ and two-dimensional harmonic oscillator:
 $\left[-\frac{\hbar^2}{2m} \left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}\right)+ \frac{1}{2}m\omega^2(x^2+y^2)\right]\psi(x,y) = E\psi(x,y)$\
 $\psi(r)\longrightarrow 0 \hspace{4pt}as\hspace{4pt} r \longrightarrow \infty \hspace{4pt} where\hspace{4pt} r = \sqrt{x^2+y^2}$
 
-This approch is totally unsupervised, meaning the network acts like a numerical solver of differential equations. The loss function is defined in the following form:
+This approach is totally unsupervised, meaning the network acts like a numerical solver of differential equations. The loss function is defined in the following form:
 
 $L= \alpha L_{DE}+\beta L_{norm}+\gamma L_{ortho}$
 
@@ -22,9 +22,9 @@ The wavefunctions discovered by the networks are presented below:
 ![Predicted wave functions for the one-dimensional problem](https://github.com/AnishD11/PINN-for-Schrodinger-Equation-1D-2D-Harmonic-Oscillator-Solutions/blob/main/assets/1dwf.png)
 ![Predicted wave functions for the two-dimensional problem](https://github.com/AnishD11/PINN-for-Schrodinger-Equation-1D-2D-Harmonic-Oscillator-Solutions/blob/main/assets/2dwf.png)
 
-While the codes are written specifically for the harmonic oscillator problem, they can be modified for any potential or any other differential equation in the form of eigenvalue problem.
+While the codes are written specifically for the harmonic oscillator problem, they can be modified for any potential or any other differential equation in the form of an eigenvalue problem.
 
-Dependencies:
+# Dependencies:
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-v2.0-red?style=flat&logo=pytorch)](https://pytorch.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-v1.24-blue?style=flat&logo=numpy)](https://numpy.org/)
