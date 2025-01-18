@@ -25,7 +25,7 @@ The wavefunctions discovered by the networks are presented below:
 While the codes are written specifically for the harmonic oscillator problem, they can be modified for any potential or any other differential equation in the form of an eigenvalue problem.
 
 ---
-Dependencies:
+## Dependencies:
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-v2.0-red?style=flat&logo=pytorch)](https://pytorch.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-v1.24-blue?style=flat&logo=numpy)](https://numpy.org/)
